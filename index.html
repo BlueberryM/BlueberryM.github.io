@@ -1,0 +1,58 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Pathway+Gothic+One" rel="stylesheet">
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Hoppborgsvik</title>
+</head>
+<link rel="icon" type="image/png" href="bilder/hoppborg1.png">
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+        <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+        <nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Hem</a>
+                <ul class="nav navbar-nav">
+                    <li><a href="menyval1.html">Öppettider</a></li>
+                    <li><a href="menyval2.html">Priser</a></li>
+                    <li><a href="menyval3.html">Hitta hit</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    <h1 class="center" id="överskrift">Hoppborgsvik!</h1>
+    <h4 class="center" id="underskrift">Hoppborgsvik är ett hoppborgsland som finns i många delar av Sverige. </h4>
+    <h4 class="center" id="underskrift">Här finns det någonting för alla åldrar. Det finns allt från hoppborgar till vattenrutchbanor!</h4>
+    <h4 class="center" id="underskrift">Filmen här nedan är ett filmklipp från Hoppborgsvik i Falun där man kan hyra hoppborgar.😁</h4>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/DWxQ1Kl3iMM" frameborder="0" allowfullscreen></iframe>
+    <br>
+    <h4 id="underskrift" class="center">I Hoppborgsvik i Uppsala finns både hoppborgar och vattenrutchbanor</h4>
+    <iframe width="560" height="415" src="https://www.youtube.com/embed/YRaMRTzkEyk" frameborder="0" allowfullscreen></iframe>
+    <br>
+    <h4 class="center" id="underskrift">Bilden nedan är från Hoppborgsvik i Örebro där de har massor av hoppborgshinderbanor.</h4>
+    <img src="bilder/hoppborg-bana.jpg" class="standardbild">
+
+
+</body>
+</html>

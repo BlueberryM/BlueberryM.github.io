@@ -1,0 +1,57 @@
+.standardbild{
+	width: 560px;
+	height: 315px;
+	margin-left:400px;
+}
+
+.center{
+	text-align: center;
+}
+
+iframe{
+	margin-left:400px;
+}
+
+#överskrift{
+	font-size: 70px;
+	font-family: 'Archivo Black', sans-serif;
+	color: white;
+}
+
+#mellanskrift{
+	font-size: 45px;
+	font-family: 'Pathway Gothic One', sans-serif;
+	color: white;
+}
+
+#underskrift{
+	font-size: 25px; 
+	font-family: 'Pathway Gothic One', sans-serif;
+	color: white;
+}
+
+body{
+	background-image: url("../bilder/solnedgång.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	position: relative;;
+}
+
+.navbar-inverse {
+    background-color:black;
+;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 25px
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 25px
+}
+
